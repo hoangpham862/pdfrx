@@ -1,0 +1,52 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+.tmp/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# C++
+.cxx
+
+# For pdfium builds on macOS
+.build/
+.swiftpm/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+.dart_tool/
+
+.claude/
+
+pubspec_overrides.yaml
+.mcp.json
+
+.serena/
+
+# SHOULD WE NEED THIS??: iOS/macOS build artifacts that change frequently
+**/ios/Podfile.lock
+**/macos/Podfile.lock
+**/ios/**/*.xcodeproj/project.pbxproj
+**/macos/**/*.xcodeproj/project.pbxproj
+
+build/ios/
+
+.flutter-plugins-dependencies

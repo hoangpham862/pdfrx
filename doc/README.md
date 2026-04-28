@@ -1,0 +1,52 @@
+# pdfrx Documentation
+
+Welcome to the pdfrx documentation! This guide provides comprehensive information about using the pdfrx PDF viewer plugin for Flutter.
+
+## Getting Started
+
+- [pdfrx Initialization](pdfrx-Initialization.md) - How to properly initialize pdfrx in your app
+- [Progressive Loading](Progressive-Loading.md) - Understanding and using progressive page loading for large PDFs
+
+## Core Features
+
+### Text Features
+
+- [Text Search](Text-Search.md) - Implementing text search functionality
+- [Text Selection](Text-Selection.md) - Enabling text selection
+
+### Navigation & Display
+
+- [Document Outline (Bookmarks)](Document-Outline-(a.k.a-Bookmarks).md) - Working with PDF bookmarks
+- [PDF Link Handling](PDF-Link-Handling.md) - Handling links within PDFs
+- [Page Layout Customization](Page-Layout-Customization.md) - Customizing page layouts
+- [Double-tap to Zoom](Double-tap-to-Zoom.md) - Implementing zoom gestures
+
+### UI Customization
+
+- [Adding Page Number on Page Bottom](Adding-Page-Number-on-Page-Bottom.md) - Display page numbers
+- [Document Loading Indicator](Document-Loading-Indicator.md) - Show loading progress
+- [Showing Scroll Thumbs](Showing-Scroll-Thumbs.md) - Display scroll indicators
+- [Dark/Night Mode Support](Dark-Night-Mode-Support.md) - Implement dark mode
+
+### Advanced Topics
+
+- [Coordinate Conversion](Coordinate-Conversion.md) - Understanding and converting between coordinate systems
+- [Customizing Key Handling](Customizing-Key-Handling-on-PdfViewer.md) - Keyboard shortcuts
+- [Password Protected PDFs](Deal-with-Password-Protected-PDF-Files-using-PasswordProvider.md) - Handle encrypted PDFs
+- [Overlay Builders](Deal-with-viewerOverlayBuilder-and-pageOverlaysBuilder.md) - Custom overlays
+- [Loading Fonts Dynamically](Loading-Fonts-Dynamically.md) - Add custom fonts
+- [Low-Level PDFium Bindings Access](Low-Level-PDFium-Bindings-Access.md) - Using PDFium function directly
+- [Interoperability with other PDFium Libraries](Interoperability-with-other-PDFium-Libraries.md) - Using pdfrx alongside other PDFium-based libraries
+
+### PDF Editing
+
+- [PDF Page Manipulation](PDF-Page-Manipulation.md) - Re-arrange, combine, and extract PDF pages
+- [Importing Images to PDF](Importing-Images-to-PDF.md) - Convert images to PDF and insert images into PDFs
+
+## Platform-Specific
+
+- [macOS: App Sandbox]([macOS]-Deal-with-App-Sandbox.md) - macOS sandbox configuration
+
+## API Reference
+
+For detailed API documentation, visit the [pub.dev documentation](https://pub.dev/documentation/pdfrx/latest/).

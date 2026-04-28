@@ -1,0 +1,41 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Example",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/pdfrx/example/viewer/lib/main.dart"
+    },
+    {
+      "name": "WASM",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/pdfrx/example/viewer/lib/main.dart",
+      "args": ["-d", "chrome", "--wasm"]
+    },
+    {
+      "name": "WASM-Server",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/pdfrx/example/viewer/lib/main.dart",
+      "args": ["-d", "web-server", "--wasm", "--web-port", "8080", "--web-hostname", "127.0.0.1"]
+    },
+    {
+      "name": "PDF Combine",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/pdfrx/example/pdf_combine/lib/main.dart"
+    },
+    {
+      "name": "pdfrx:remove_wasm_modules",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/pdfrx/bin/remove_wasm_modules.dart",
+      "args": []
+    }
+  ]
+}

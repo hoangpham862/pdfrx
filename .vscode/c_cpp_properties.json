@@ -1,0 +1,48 @@
+{
+  "env": {
+    "ndkVersion": "27.0.12077973"
+  },
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/packages/pdfrx/android/.lib/latest/include",
+        "${workspaceFolder}/packages/pdfrx/example/viewer/build/windows/x64/.lib/latest/include",
+        "${workspaceFolder}/packages/pdfrx/src",
+        "${env.LOCALAPPDATA}/Android/Sdk/ndk/${ndkVersion}/sysroot/usr/include/*"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "msvc-x64"
+    },
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/packages/pdfrx/android/.lib/latest/include",
+        "${workspaceFolder}/packages/pdfrx/example/viewer/build/linux/x64/.lib/latest/include",
+        "${workspaceFolder}/packages/pdfrx/src"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-clang-arm64"
+    },
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/packages/pdfrx/android/.lib/latest/include",
+        "${workspaceFolder}/packages/pdfrx/darwin/pdfrx/Sources/interop",
+        "${workspaceFolder}/packages/pdfrx/src",
+        "${workspaceFolder}/packages/pdfrx/darwin/pdfium/.lib/**",
+        "${workspaceFolder}/packages/pdfrx/example/viewer/build/**"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4,
+  "enableConfigurationSquiggles": true
+}
