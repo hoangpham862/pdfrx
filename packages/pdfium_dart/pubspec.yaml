@@ -6,7 +6,8 @@ repository: https://github.com/espresso3389/pdfrx/tree/master/packages/pdfium_da
 issue_tracker: https://github.com/espresso3389/pdfrx/issues
 
 environment:
-  sdk: ">=2.19.6 <4.0.0"
+  sdk: ">=2.19.6 <3.0.0"
+
 
 
 dependencies:
